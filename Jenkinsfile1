@@ -1,8 +1,8 @@
 pipeline {
     agent any
     parameters {
-         string(name: 'tomcat_stag', defaultValue: '172.31.41.162', description: 'Node1-Remote Staging Server')
-         string(name: 'tomcat_prod', defaultValue: '172.31.42.23', description: 'Node2-Remote Production Server')
+         string(name: 'tomcat_stag', defaultValue: '13.231.242.125', description: 'Node1-Remote Staging Server')
+         string(name: 'tomcat_prod', defaultValue: '43.206.218.52', description: 'Node2-Remote Production Server')
     }
 
     triggers {
